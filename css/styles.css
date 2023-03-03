@@ -1,13 +1,12 @@
 /* CSS Document 
-Colors and Fonts: 
+Colors and Fonts
 
-Light Blue: #6BD9F2
-Green: #3A7018
-Yellow: #FEFF01
-Light Brown: #BF7E04
-Red: #D91E0D
+Nav Grey: #313131
+Text White: #cbcbcb
+Background Red: #d81f0a
+Background Blue: #15384c
+Background Green: #154001
 
-Fonts: 
 font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Slab', serif;
 */
@@ -18,12 +17,104 @@ font-family: 'Roboto Slab', serif;
 	border: 0;
 }
 
-/* Head */
+/* Header and Nav */
 
+header {
+	background-color: #d81f0a;
+	text-align: center;
+}
 
+header h1 {
+	color: #cbcbcb;
+	font-family: 'Roboto Slab', serif;
+	font-size: 2.5em;
+}
 
-/* Body */
+header h2 {
+	color: #cbcbcb;
+	font-family: 'Roboto Slab', serif;
+	font-size: 2.25em;
+}
 
+header img {
+	width: 100%;
+}
 
+nav {
+	text-align: center;
+	padding: 1% 0;
+}
+
+nav li {
+	display: inline;
+	font-size: 1.5em;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	padding: 2%;
+}
+
+nav li a {
+	color: #ebebeb;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	color: #313131;
+	background-color: #ebebeb;
+	text-decoration: underline;
+}
+
+/* Main */
+
+main {
+	background-color: #15384c;
+	min-height: 500px;
+}
+
+main img {
+	height: 300px;
+	padding: 1%;
+	justify-content: center;
+}
+
+main h1 {
+	text-align: center;
+	font-size: 2em;
+	color: #cbcbcb;
+}
+
+main p {
+	font-size: 1.5em;
+	padding: 1.5%;
+	color: #cbcbcb;
+}
+
+form {
+	margin: 1%;
+    display: block;
+}
+
+label {
+	display: block;
+	font-size: 1.5em;
+	padding: 1%;
+	color: #cbcbcb;
+}
+
+input {
+	margin: .1%;
+	padding: .5%;
+	display: block;
+}
 
 /* Footer */
+
+footer {
+	background-color: #154001;
+}
+
+footer p {
+	color: #cbcbcb;
+	text-align: center;
+	padding: .5%;
+}
